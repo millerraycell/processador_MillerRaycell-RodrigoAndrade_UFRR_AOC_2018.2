@@ -13,9 +13,9 @@ BEGIN
 abc: PROCESS (entrada1,entrada2,entrada3,flag)
 begin
 	CASE flag IS
-		WHEN "00" =>  saida <= entrada1;
-		WHEN "01" =>  saida <= entrada2;
-		WHEN "10" =>  saida <= entrada3;
+		WHEN "00" =>  saida <= "0000";
+		WHEN "01" =>  saida <= "0001";
+		WHEN "10" =>  saida <= entrada1;
 	END CASE;
 end PROCESS abc;
 END behavior;
