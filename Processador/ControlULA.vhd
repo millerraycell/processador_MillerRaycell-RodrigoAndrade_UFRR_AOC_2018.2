@@ -10,11 +10,11 @@ END ControlULA;
 
 ARCHITECTURE behavior OF ControlULA IS
 BEGIN
-abc: PROCESS (entrada1,entrada2,entrada3,flag)
+abc: PROCESS (entrada1,flag)
 begin
 	CASE flag IS
-		WHEN "00" =>  saida <= "0000";
-		WHEN "01" =>  saida <= "0001";
+		WHEN "00" =>  saida <= "000";
+		WHEN "01" =>  saida <= "001";
 		WHEN "10" =>  saida <= entrada1;
 	END CASE;
 end PROCESS abc;

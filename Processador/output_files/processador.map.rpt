@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processador
-Fri Nov 16 14:04:46 2018
+Sat Nov 17 12:59:20 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Fri Nov 16 14:04:46 2018           ;
+; Analysis & Synthesis Status ; Failed - Sat Nov 17 12:59:20 2018           ;
 ; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; processador                                 ;
 ; Top-level Entity Name       ; processador                                 ;
@@ -160,30 +160,48 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 16 14:04:34 2018
+    Info: Processing started: Sat Nov 17 12:59:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processador -c processador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 0 design units, including 0 entities, in source file processador.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file qand.vhd
-    Info (12022): Found design unit 1: QAnd-behavior File: C:/Processador/QAnd.vhd Line: 10
-    Info (12023): Found entity 1: QAnd File: C:/Processador/QAnd.vhd Line: 4
+    Info (12022): Found design unit 1: QAnd-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QAnd.vhd Line: 10
+    Info (12023): Found entity 1: QAnd File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QAnd.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qor.vhd
-    Info (12022): Found design unit 1: QOr-behavior File: C:/Processador/QOr.vhd Line: 10
-    Info (12023): Found entity 1: QOr File: C:/Processador/QOr.vhd Line: 4
+    Info (12022): Found design unit 1: QOr-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QOr.vhd Line: 10
+    Info (12023): Found entity 1: QOr File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QOr.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file mux2bits.vhd
-    Info (12022): Found design unit 1: Mux2Bits-behavior File: C:/Processador/Mux2Bits.vhd Line: 11
-    Info (12023): Found entity 1: Mux2Bits File: C:/Processador/Mux2Bits.vhd Line: 4
+    Info (12022): Found design unit 1: Mux2Bits-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux2Bits.vhd Line: 11
+    Info (12023): Found entity 1: Mux2Bits File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux2Bits.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file mux3bits.vhd
-    Info (12022): Found design unit 1: Mux3Bits-behavior File: C:/Processador/Mux3Bits.vhd Line: 11
-    Info (12023): Found entity 1: Mux3Bits File: C:/Processador/Mux3Bits.vhd Line: 4
+    Info (12022): Found design unit 1: Mux3Bits-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux3Bits.vhd Line: 11
+    Info (12023): Found entity 1: Mux3Bits File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux3Bits.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file mux4bits.vhd
-    Info (12022): Found design unit 1: Mux4Bits-behavior File: C:/Processador/Mux4Bits.vhd Line: 11
-    Info (12023): Found entity 1: Mux4Bits File: C:/Processador/Mux4Bits.vhd Line: 4
+    Info (12022): Found design unit 1: Mux4Bits-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux4Bits.vhd Line: 11
+    Info (12023): Found entity 1: Mux4Bits File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mux4Bits.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file controlula.vhd
+    Info (12022): Found design unit 1: ControlULA-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/ControlULA.vhd Line: 11
+    Info (12023): Found entity 1: ControlULA File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/ControlULA.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file extensor.vhd
+    Info (12022): Found design unit 1: extensor-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Extensor.vhd Line: 11
+    Info (12023): Found entity 1: extensor File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Extensor.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file qshifte.vhd
+    Info (12022): Found design unit 1: QShifte-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QShifte.vhd Line: 11
+    Info (12023): Found entity 1: QShifte File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QShifte.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file sum.vhd
+    Info (12022): Found design unit 1: Sum-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Sum.vhd Line: 13
+    Info (12023): Found entity 1: Sum File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Sum.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file sub.vhd
+    Info (12022): Found design unit 1: Sub-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Sub.vhd Line: 13
+    Info (12023): Found entity 1: Sub File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Sub.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file mult.vhd
+    Info (12022): Found design unit 1: mult-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mult.vhd Line: 12
+    Info (12023): Found entity 1: Mult File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mult.vhd Line: 5
 Error (12007): Top-level design entity "processador" is undefined
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
-    Error: Peak virtual memory: 4864 megabytes
-    Error: Processing ended: Fri Nov 16 14:04:46 2018
+    Error: Peak virtual memory: 4862 megabytes
+    Error: Processing ended: Sat Nov 17 12:59:20 2018
     Error: Elapsed time: 00:00:12
     Error: Total CPU time (on all processors): 00:00:26
 
