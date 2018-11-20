@@ -12,6 +12,6 @@ ARCHITECTURE behavior of QShifte is
 	signal vet : std_logic_vector(13 downto 0);
 	BEGIN
 		vet <= opshifte(15 DOWNTO 2);
-		resshifte <= vet & "00";
+		resshifte <= "00" & vet;
 end behavior;
 	

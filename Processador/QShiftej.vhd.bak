@@ -4,7 +4,8 @@ USE ieee.std_logic_1164.all;
 ENTITY QShifte IS
 PORT
 (
-	opshifte : in std_logic_vector(15 downto 0);
+	pc : in std_logic_vector (15 downto 0);
+	opshifte : in std_logic_vector(11 downto 0);
 	resshifte : out std_logic_vector(15 downto 0));
 END QShifte;
 

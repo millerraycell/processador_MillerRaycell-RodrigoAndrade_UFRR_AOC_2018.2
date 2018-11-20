@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processador
-Sat Nov 17 12:59:20 2018
+Mon Nov 19 20:58:40 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Sat Nov 17 12:59:20 2018           ;
+; Analysis & Synthesis Status ; Failed - Mon Nov 19 20:58:40 2018           ;
 ; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; processador                                 ;
 ; Top-level Entity Name       ; processador                                 ;
@@ -160,7 +160,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sat Nov 17 12:59:08 2018
+    Info: Processing started: Mon Nov 19 20:58:28 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processador -c processador
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -198,10 +198,25 @@ Info (12021): Found 2 design units, including 1 entities, in source file sub.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file mult.vhd
     Info (12022): Found design unit 1: mult-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mult.vhd Line: 12
     Info (12023): Found entity 1: Mult File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/Mult.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
+    Info (12022): Found design unit 1: ula-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/ula.vhd Line: 15
+    Info (12023): Found entity 1: ula File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/ula.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file pc.vhd
+    Info (12022): Found design unit 1: PC-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/PC.vhd Line: 11
+    Info (12023): Found entity 1: PC File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/PC.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file qshiftej.vhd
+    Info (12022): Found design unit 1: QShiftej-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QShiftej.vhd Line: 12
+    Info (12023): Found entity 1: QShiftej File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QShiftej.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file qand2.vhd
+    Info (12022): Found design unit 1: QAnd2-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QAnd2.vhd Line: 10
+    Info (12023): Found entity 1: QAnd2 File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QAnd2.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file qor2.vhd
+    Info (12022): Found design unit 1: QOr2-behavior File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QOr2.vhd Line: 10
+    Info (12023): Found entity 1: QOr2 File: C:/processador_MillerRaycell-RodrigoAndrade_UFRR_AOC_2018.2/Processador/QOr2.vhd Line: 4
 Error (12007): Top-level design entity "processador" is undefined
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 1 warning
     Error: Peak virtual memory: 4862 megabytes
-    Error: Processing ended: Sat Nov 17 12:59:20 2018
+    Error: Processing ended: Mon Nov 19 20:58:40 2018
     Error: Elapsed time: 00:00:12
     Error: Total CPU time (on all processors): 00:00:26
 
