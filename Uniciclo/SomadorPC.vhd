@@ -1,6 +1,8 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_ARITH.ALL;
+use ieee.std_logic_signed.all;
+
 
 ENTITY sompc IS
 PORT(
