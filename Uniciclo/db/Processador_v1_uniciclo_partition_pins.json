@@ -1,0 +1,653 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SomadorToPc_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SomadorToPc_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaPc_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegA_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaRegB_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplexador_to_writeRegister_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplexador_to_writeRegister_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplexador_to_writeRegister_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_multiplexador_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_multiplexador_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_multiplexador_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_Control_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_Control_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_register1_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_register1_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_register2_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_controlULA_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_extensorDeSinal_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Instruction_to_extensorDeSinal_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_Saida_OperacaoDaULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_Saida_OperacaoDaULA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_Saida_OperacaoDaULA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_Saida_OperacaoDaULA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_to_writeRegister_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_mult_to_mult_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_to_PC_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_adress_to_RAM_outWaveform[15]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_cont_sincz1",
+					"strict" : false
+				},
+				{
+					"name" : "saida_cont_sincz2",
+					"strict" : false
+				},
+				{
+					"name" : "saida_cont_sincz3",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_regdest_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_origialu_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_origialu_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_origialu_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_memparareg_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_escrevereg_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_lemem_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_escrevemem_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_branch_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_aluSRC_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Flag_jump_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "Clock_Sistema",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

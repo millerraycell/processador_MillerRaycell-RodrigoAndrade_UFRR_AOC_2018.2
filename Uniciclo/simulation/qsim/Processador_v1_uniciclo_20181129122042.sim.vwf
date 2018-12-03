@@ -1,0 +1,1096 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 10.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("Clock_Sistema")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Clock_Sistema~input")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = COMBINATORIAL;
+	PARENT = "";
+}
+
+SIGNAL("PC:G1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("SomadorPC:G2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Qsll:G3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("memoria_ROM2:G4")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("UnidadedeControle:G5")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexador2x1:G6")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("BancoRegistradores:G7")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("ExtensordeSinal6To16bits:G8")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("ShiftEsquerda:G9")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Somadorde16bits:G10")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("QAndBIT:G11")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexador2x1_16bits:G12")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexador2x1_16bits:G13")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexador2x1_16bits:G14")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("OperacaoDaULA:G15")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("ULA:G16")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("memram:G17")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+SIGNAL("Multiplexador2x1_16bits:G18")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BURIED;
+	PARENT = "";
+}
+
+TRANSITION_LIST("Clock_Sistema")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Clock_Sistema~input")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("PC:G1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SomadorPC:G2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Qsll:G3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("memoria_ROM2:G4")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("UnidadedeControle:G5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Multiplexador2x1:G6")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("BancoRegistradores:G7")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("ExtensordeSinal6To16bits:G8")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("ShiftEsquerda:G9")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Somadorde16bits:G10")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("QAndBIT:G11")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Multiplexador2x1_16bits:G12")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Multiplexador2x1_16bits:G13")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Multiplexador2x1_16bits:G14")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("OperacaoDaULA:G15")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("ULA:G16")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("memram:G17")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+TRANSITION_LIST("Multiplexador2x1_16bits:G18")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
+		}
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clock_Sistema";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clock_Sistema~input";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "PC:G1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SomadorPC:G2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Qsll:G3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "memoria_ROM2:G4";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "UnidadedeControle:G5";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplexador2x1:G6";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "BancoRegistradores:G7";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "ExtensordeSinal6To16bits:G8";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "ShiftEsquerda:G9";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Somadorde16bits:G10";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "QAndBIT:G11";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplexador2x1_16bits:G12";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplexador2x1_16bits:G13";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplexador2x1_16bits:G14";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "OperacaoDaULA:G15";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "ULA:G16";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "memram:G17";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Multiplexador2x1_16bits:G18";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;
