@@ -78,44 +78,44 @@ RREF                         : A1        :        :                   :         
 MSEL2                        : A2        :        :                   :         : 9A        :                
 VCCBAT                       : A3        : power  :                   : 1.2V    :           :                
 nCONFIG                      : A4        :        :                   :         : 9A        :                
-Saida_mult_to_mult_outWaveform[7] : A5        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Jump_outWaveform[4] : A5        : output : 2.5 V             :         : 8A        : N              
 VCCIO8A                      : A6        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A9        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A10       :        :                   :         : 8A        :                
+multiplexador_to_writeRegister_outWaveform[2] : A8        : output : 2.5 V             :         : 8A        : N              
+out_Saida_OperacaoDaULA[5]   : A9        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Control_outWaveform[0] : A10       : output : 2.5 V             :         : 8A        : N              
 GND                          : A11       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A12       :        :                   :         : 7A        :                
-Instruction_to_extensorDeSinal_outWaveform[5] : A13       : output : 2.5 V             :         : 7A        : N              
-Instruction_to_extensorDeSinal_outWaveform[4] : A14       : output : 2.5 V             :         : 7A        : N              
-SomadorToPc_outWaveform[6]   : A15       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7A        :                
+Instruction_to_register1_outWaveform[0] : A15       : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : A16       : power  :                   : 2.5V    : 7A        :                
-Saida_adress_to_RAM_outWaveform[8] : A17       : output : 2.5 V             :         : 7A        : N              
-Instruction_to_extensorDeSinal_outWaveform[0] : A18       : output : 2.5 V             :         : 7A        : N              
-SaidaRegB_outWaveform[14]    : A19       : output : 2.5 V             :         : 7A        : N              
-Saida_mult_to_mult_outWaveform[3] : A20       : output : 2.5 V             :         : 7A        : N              
+SaidaPc_outWaveform[13]      : A17       : output : 2.5 V             :         : 7A        : N              
+Flag_lemem_OUT               : A18       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A19       :        :                   :         : 7A        :                
+SaidaPc_outWaveform[15]      : A20       : output : 2.5 V             :         : 7A        : N              
 GND                          : A21       : gnd    :                   :         :           :                
-Saida_adress_to_RAM_outWaveform[3] : A22       : output : 2.5 V             :         : 7A        : N              
+SaidaRegA_outWaveform[13]    : A22       : output : 2.5 V             :         : 7A        : N              
 GND                          : AA1       :        :                   :         : B0L       :                
 GND                          : AA2       :        :                   :         : B0L       :                
 GND                          : AA3       : gnd    :                   :         :           :                
 GND                          : AA4       : gnd    :                   :         :           :                
 AS_DATA2, DATA2              : AA5       :        :                   :         : 3A        :                
 GND                          : AA6       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA8       :        :                   :         : 3B        :                
-SaidaPc_outWaveform[13]      : AA9       : output : 2.5 V             :         : 3B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA10      :        :                   :         : 3B        :                
+SaidaRegB_outWaveform[13]    : AA7       : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[3]   : AA8       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[5] : AA9       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[3] : AA10      : output : 2.5 V             :         : 3B        : N              
 GND                          : AA11      : gnd    :                   :         :           :                
-Saida_to_PC_outWaveform[4]   : AA12      : output : 2.5 V             :         : 3B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA13      :        :                   :         : 4A        :                
-Saida_mult_to_mult_outWaveform[0] : AA14      : output : 2.5 V             :         : 4A        : N              
-Saida_mult_to_mult_outWaveform[2] : AA15      : output : 2.5 V             :         : 4A        : N              
+Saida_mult_to_mult_outWaveform[6] : AA12      : output : 2.5 V             :         : 3B        : N              
+SaidaRegB_outWaveform[12]    : AA13      : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[15] : AA14      : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[4]   : AA15      : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AA16      : power  :                   : 2.5V    : 4A        :                
-Saida_mult_to_mult_outWaveform[12] : AA17      : output : 2.5 V             :         : 4A        : N              
-SaidaPc_outWaveform[11]      : AA18      : output : 2.5 V             :         : 4A        : N              
-SaidaRegA_outWaveform[7]     : AA19      : output : 2.5 V             :         : 4A        : N              
-SaidaRegA_outWaveform[9]     : AA20      : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[11] : AA17      : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[11]    : AA18      : output : 2.5 V             :         : 4A        : N              
+SaidaRegB_outWaveform[2]     : AA19      : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[4]       : AA20      : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AA21      : power  :                   : 2.5V    : 4A        :                
 SomadorToPc_outWaveform[13]  : AA22      : output : 2.5 V             :         : 4A        : N              
 GND                          : AB1       : gnd    :                   :         :           :                
@@ -123,133 +123,133 @@ GND                          : AB2       : gnd    :                   :         
 AS_DATA1, DATA1              : AB3       :        :                   :         : 3A        :                
 AS_DATA0, ASDO, DATA0        : AB4       :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 3B        :                
-Saida_adress_to_RAM_outWaveform[4] : AB6       : output : 2.5 V             :         : 3B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3B        :                
+Flag_escrevereg_OUT          : AB6       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[0] : AB7       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[1] : AB8       : output : 2.5 V             :         : 3B        : N              
 GND                          : AB9       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB10      :        :                   :         : 3B        :                
-SaidaPc_outWaveform[2]       : AB11      : output : 2.5 V             :         : 3B        : N              
-Saida_mult_to_mult_outWaveform[13] : AB12      : output : 2.5 V             :         : 4A        : N              
-Saida_adress_to_RAM_outWaveform[5] : AB13      : output : 2.5 V             :         : 4A        : N              
+Saida_to_PC_outWaveform[10]  : AB10      : output : 2.5 V             :         : 3B        : N              
+SaidaRegB_outWaveform[15]    : AB11      : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[0]   : AB12      : output : 2.5 V             :         : 4A        : N              
+SaidaRegB_outWaveform[3]     : AB13      : output : 2.5 V             :         : 4A        : N              
 GND                          : AB14      : gnd    :                   :         :           :                
-SaidaPc_outWaveform[7]       : AB15      : output : 2.5 V             :         : 4A        : N              
+Saida_to_PC_outWaveform[1]   : AB15      : output : 2.5 V             :         : 4A        : N              
 VREFB4AN0                    : AB16      : power  :                   :         : 4A        :                
-SomadorToPc_outWaveform[4]   : AB17      : output : 2.5 V             :         : 4A        : N              
-Instruction_to_extensorDeSinal_outWaveform[2] : AB18      : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[7]     : AB17      : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[15]  : AB18      : output : 2.5 V             :         : 4A        : N              
 GND                          : AB19      : gnd    :                   :         :           :                
-SaidaPc_outWaveform[9]       : AB20      : output : 2.5 V             :         : 4A        : N              
-Flag_escrevereg_OUT          : AB21      : output : 2.5 V             :         : 4A        : N              
-SomadorToPc_outWaveform[5]   : AB22      : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[7]       : AB20      : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[6]       : AB21      : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[4]     : AB22      : output : 2.5 V             :         : 4A        : N              
 GND                          : B1        : gnd    :                   :         :           :                
 GND                          : B2        : gnd    :                   :         :           :                
 DNU                          : B3        :        :                   :         :           :                
 DNU                          : B4        :        :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8A        :                
-Instruction_to_Jump_outWaveform[11] : B6        : output : 2.5 V             :         : 8A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8A        :                
+Instruction_to_extensorDeSinal_outWaveform[3] : B6        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Control_outWaveform[1] : B7        : output : 2.5 V             :         : 8A        : N              
 VREFB8AN0                    : B8        : power  :                   :         : 8A        :                
 GND                          : B9        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B10       :        :                   :         : 8A        :                
-saida_cont_sincz2            : B11       : output : 2.5 V             :         : 7A        : N              
-Instruction_to_extensorDeSinal_outWaveform[3] : B12       : output : 2.5 V             :         : 7A        : N              
-Instruction_to_Jump_outWaveform[3] : B13       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[9] : B10       : output : 2.5 V             :         : 8A        : N              
+Flag_origialu_OUT[0]         : B11       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[2] : B12       : output : 2.5 V             :         : 7A        : N              
+Flag_memparareg_OUT          : B13       : output : 2.5 V             :         : 7A        : N              
 GND                          : B14       : gnd    :                   :         :           :                
-SaidaRegA_outWaveform[15]    : B15       : output : 2.5 V             :         : 7A        : N              
-SaidaPc_outWaveform[6]       : B16       : output : 2.5 V             :         : 7A        : N              
-SaidaPc_outWaveform[12]      : B17       : output : 2.5 V             :         : 7A        : N              
-SomadorToPc_outWaveform[3]   : B18       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :         : 7A        :                
+Instruction_to_extensorDeSinal_outWaveform[0] : B16       : output : 2.5 V             :         : 7A        : N              
+Saida_adress_to_RAM_outWaveform[10] : B17       : output : 2.5 V             :         : 7A        : N              
+SaidaRegB_outWaveform[11]    : B18       : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : B19       : power  :                   : 2.5V    : 7A        :                
-SomadorToPc_outWaveform[11]  : B20       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[5]   : B21       : output : 2.5 V             :         : 7A        : N              
-Saida_mult_to_mult_outWaveform[10] : B22       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_register2_outWaveform[2] : B20       : output : 2.5 V             :         : 7A        : N              
+Saida_adress_to_RAM_outWaveform[6] : B21       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 7A        :                
 GND                          : C1        :        :                   :         : B1L       :                
 GND                          : C2        :        :                   :         : B1L       :                
 GND                          : C3        : gnd    :                   :         :           :                
 GND                          : C4        : gnd    :                   :         :           :                
 GND                          : C5        :        :                   :         : 9A        :                
-Instruction_to_register2_outWaveform[1] : C6        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Jump_outWaveform[7] : C6        : output : 2.5 V             :         : 8A        : N              
 VCCIO8A                      : C7        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8A        :                
-Flag_origialu_OUT[3]         : C9        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 8A        :                
 VCCPD7A8A                    : C10       : power  :                   : 2.5V    : 7A, 8A    :                
-Instruction_to_register1_outWaveform[2] : C11       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_extensorDeSinal_outWaveform[4] : C11       : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : C12       : power  :                   : 2.5V    : 7A        :                
-Instruction_to_register1_outWaveform[1] : C13       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C13       :        :                   :         : 7A        :                
 VREFB7AN0                    : C14       : power  :                   :         : 7A        :                
-Saida_adress_to_RAM_outWaveform[9] : C15       : output : 2.5 V             :         : 7A        : N              
-SaidaRegA_outWaveform[13]    : C16       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_controlULA_outWaveform[1] : C15       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[11] : C16       : output : 2.5 V             :         : 7A        : N              
 GND                          : C17       : gnd    :                   :         :           :                
-Flag_origialu_OUT[0]         : C18       : output : 2.5 V             :         : 7A        : N              
-SaidaRegB_outWaveform[2]     : C19       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[10]  : C20       : output : 2.5 V             :         : 7A        : N              
-SomadorToPc_outWaveform[9]   : C21       : output : 2.5 V             :         : 7A        : N              
+SaidaPc_outWaveform[12]      : C18       : output : 2.5 V             :         : 7A        : N              
+Flag_branch_OUT              : C19       : output : 2.5 V             :         : 7A        : N              
+Saida_mult_to_mult_outWaveform[8] : C20       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 7A        :                
 VCCIO7A                      : C22       : power  :                   : 2.5V    : 7A        :                
 GND                          : D1        : gnd    :                   :         :           :                
 GND                          : D2        : gnd    :                   :         :           :                
 GXB_NC                       : D3        :        :                   :         : B1L       :                
 GXB_NC                       : D4        :        :                   :         : B1L       :                
 GND                          : D5        : gnd    :                   :         :           :                
-Instruction_to_register2_outWaveform[2] : D6        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8A        :                
 VCCPD7A8A                    : D8        : power  :                   : 2.5V    : 7A, 8A    :                
-Instruction_to_controlULA_outWaveform[1] : D9        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8A        :                
 GND                          : D10       : gnd    :                   :         :           :                
 VCC_AUX                      : D11       : power  :                   : 2.5V    :           :                
-Saida_adress_to_RAM_outWaveform[15] : D12       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D13       :        :                   :         : 7A        :                
 VCCPD7A8A                    : D14       : power  :                   : 2.5V    : 7A, 8A    :                
 VCCIO7A                      : D15       : power  :                   : 2.5V    : 7A        :                
 VCCPD7A8A                    : D16       : power  :                   : 2.5V    : 7A, 8A    :                
-SaidaRegA_outWaveform[6]     : D17       : output : 2.5 V             :         : 7A        : N              
+out_Saida_OperacaoDaULA[3]   : D17       : output : 2.5 V             :         : 7A        : N              
 VCC_AUX                      : D18       : power  :                   : 2.5V    :           :                
-SaidaPc_outWaveform[15]      : D19       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[10] : D19       : output : 2.5 V             :         : 7A        : N              
 GND                          : D20       : gnd    :                   :         :           :                
-SaidaPc_outWaveform[4]       : D21       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[1]   : D22       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_extensorDeSinal_outWaveform[5] : D21       : output : 2.5 V             :         : 7A        : N              
+SaidaPc_outWaveform[2]       : D22       : output : 2.5 V             :         : 7A        : N              
 GXB_NC                       : E1        :        :                   :         : B1L       :                
 GXB_NC                       : E2        :        :                   :         : B1L       :                
 GND                          : E3        : gnd    :                   :         :           :                
 GND                          : E4        : gnd    :                   :         :           :                
 MSEL3                        : E5        :        :                   :         : 9A        :                
 VCC_AUX                      : E6        : power  :                   : 2.5V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8A        :                
+Flag_regdest_OUT             : E7        : output : 2.5 V             :         : 8A        : N              
 VCCIO8A                      : E8        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8A        :                
+Flag_origialu_OUT[2]         : E10       : output : 2.5 V             :         : 8A        : N              
 VCCPD7A8A                    : E11       : power  :                   : 2.5V    : 7A, 8A    :                
-saida_cont_sincz3            : E12       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7A        :                
 GND                          : E13       : gnd    :                   :         :           :                
-Instruction_to_Jump_outWaveform[2] : E14       : output : 2.5 V             :         : 7A        : N              
-SaidaRegA_outWaveform[12]    : E15       : output : 2.5 V             :         : 7A        : N              
-SaidaRegB_outWaveform[13]    : E16       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 7A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7A        :                
+Instruction_to_register2_outWaveform[0] : E16       : output : 2.5 V             :         : 7A        : N              
 DNU                          : E17       :        :                   :         :           :                
 VCCIO7A                      : E18       : power  :                   : 2.5V    : 7A        :                
-Saida_mult_to_mult_outWaveform[1] : E19       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[15]  : E20       : output : 2.5 V             :         : 7A        : N              
-SomadorToPc_outWaveform[1]   : E21       : output : 2.5 V             :         : 7A        : N              
-Data_to_writeRegister_outWaveform[11] : E22       : output : 2.5 V             :         : 7A        : N              
+SaidaRegA_outWaveform[3]     : E19       : output : 2.5 V             :         : 7A        : N              
+multiplexador_to_writeRegister_outWaveform[0] : E20       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[3] : E21       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E22       :        :                   :         : 7A        :                
 GND                          : F1        : gnd    :                   :         :           :                
 GND                          : F2        : gnd    :                   :         :           :                
 MSEL4                        : F3        :        :                   :         : 9A        :                
 VCCA_FPLL                    : F4        : power  :                   : 2.5V    :           :                
 GND                          : F5        :        :                   :         : B1L       :                
 GND                          : F6        : gnd    :                   :         :           :                
-Instruction_to_Jump_outWaveform[8] : F7        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :         : 8A        :                
 VCCPGM                       : F8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
-Instruction_to_Control_outWaveform[3] : F9        : output : 2.5 V             :         : 8A        : N              
+Flag_escrevemem_OUT          : F9        : output : 2.5 V             :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8A        :                
 VCCIO7A                      : F11       : power  :                   : 2.5V    : 7A        :                
-SomadorToPc_outWaveform[15]  : F12       : output : 2.5 V             :         : 7A        : N              
-Saida_adress_to_RAM_outWaveform[14] : F13       : output : 2.5 V             :         : 7A        : N              
-SaidaRegA_outWaveform[1]     : F14       : output : 2.5 V             :         : 7A        : N              
-SaidaPc_outWaveform[8]       : F15       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 7A        :                
+out_Saida_OperacaoDaULA[1]   : F13       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Jump_outWaveform[6] : F14       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_controlULA_outWaveform[0] : F15       : output : 2.5 V             :         : 7A        : N              
 GND                          : F16       : gnd    :                   :         :           :                
 GND                          : F17       :        :                   :         : 7A        :                
-Flag_origialu_OUT[1]         : F18       : output : 2.5 V             :         : 7A        : N              
-Saida_adress_to_RAM_outWaveform[7] : F19       : output : 2.5 V             :         : 7A        : N              
-Flag_escrevemem_OUT          : F20       : output : 2.5 V             :         : 7A        : N              
+SaidaRegB_outWaveform[10]    : F18       : output : 2.5 V             :         : 7A        : N              
+SaidaRegA_outWaveform[10]    : F19       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 7A        :                
 VCCIO7A                      : F21       : power  :                   : 2.5V    : 7A        :                
-SaidaPc_outWaveform[0]       : F22       : output : 2.5 V             :         : 7A        : N              
+Saida_adress_to_RAM_outWaveform[4] : F22       : output : 2.5 V             :         : 7A        : N              
 GND                          : G1        :        :                   :         : B1L       :                
 GND                          : G2        :        :                   :         : B1L       :                
 GND                          : G3        : gnd    :                   :         :           :                
@@ -257,42 +257,42 @@ GND                          : G4        :        :                   :         
 nCE                          : G5        :        :                   :         : 9A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G6        :        :                   :         : 8A        :                
 VCCIO8A                      : G7        : power  :                   : 2.5V    : 8A        :                
-Instruction_to_Jump_outWaveform[5] : G8        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8A        :                
 GND                          : G9        : gnd    :                   :         :           :                
-saida_cont_sincz1            : G10       : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Jump_outWaveform[1] : G10       : output : 2.5 V             :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G11       :        :                   :         : 7A        :                
-Instruction_to_Control_outWaveform[2] : G12       : output : 2.5 V             :         : 7A        : N              
-Instruction_to_register1_outWaveform[0] : G13       : output : 2.5 V             :         : 7A        : N              
+out_Saida_OperacaoDaULA[2]   : G12       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G13       :        :                   :         : 7A        :                
 VCCIO7A                      : G14       : power  :                   : 2.5V    : 7A        :                
-Flag_branch_OUT              : G15       : output : 2.5 V             :         : 7A        : N              
-Saida_mult_to_mult_outWaveform[9] : G16       : output : 2.5 V             :         : 7A        : N              
-SaidaRegA_outWaveform[11]    : G17       : output : 2.5 V             :         : 7A        : N              
-SaidaRegA_outWaveform[4]     : G18       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 7A        :                
+out_Saida_OperacaoDaULA[0]   : G16       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_Control_outWaveform[2] : G17       : output : 2.5 V             :         : 7A        : N              
+out_Saida_OperacaoDaULA[4]   : G18       : output : 2.5 V             :         : 7A        : N              
 GND                          : G19       : gnd    :                   :         :           :                
-Saida_to_PC_outWaveform[9]   : G20       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[6]   : G21       : output : 2.5 V             :         : 7A        : N              
-Saida_to_PC_outWaveform[3]   : G22       : output : 2.5 V             :         : 7A        : N              
+SaidaPc_outWaveform[10]      : G20       : output : 2.5 V             :         : 7A        : N              
+Saida_to_PC_outWaveform[5]   : G21       : output : 2.5 V             :         : 7A        : N              
+SaidaRegB_outWaveform[8]     : G22       : output : 2.5 V             :         : 7A        : N              
 GND                          : H1        : gnd    :                   :         :           :                
 GND                          : H2        : gnd    :                   :         :           :                
 GND                          : H3        : gnd    :                   :         :           :                
 GND                          : H4        : gnd    :                   :         :           :                
 nSTATUS                      : H5        :        :                   :         : 9A        :                
-Instruction_to_Jump_outWaveform[1] : H6        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H6        :        :                   :         : 8A        :                
 GND                          : H7        : gnd    :                   :         :           :                
-Instruction_to_Jump_outWaveform[0] : H8        : output : 2.5 V             :         : 8A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : H9        :        :                   :         : 8A        :                
-Saida_to_PC_outWaveform[8]   : H10       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H8        :        :                   :         : 8A        :                
+Flag_origialu_OUT[3]         : H9        : output : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H11       :        :                   :         : 7A        :                
 GND                          : H12       : gnd    :                   :         :           :                
-SaidaRegA_outWaveform[3]     : H13       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H14       :        :                   :         : 7A        :                
-SaidaRegB_outWaveform[1]     : H15       : output : 2.5 V             :         : 7A        : N              
-SomadorToPc_outWaveform[10]  : H16       : output : 2.5 V             :         : 7A        : N              
+multiplexador_to_writeRegister_outWaveform[1] : H15       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_multiplexador_outWaveform[1] : H16       : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : H17       : power  :                   : 2.5V    : 7A        :                
-Flag_origialu_OUT[2]         : H18       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H18       :        :                   :         : 7A        :                
 VCCA_FPLL                    : H19       : power  :                   : 2.5V    :           :                
-SomadorToPc_outWaveform[12]  : H20       : output : 2.5 V             :         : 7A        : N              
-SaidaPc_outWaveform[10]      : H21       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H20       :        :                   :         : 7A        :                
+Flag_origialu_OUT[1]         : H21       : output : 2.5 V             :         : 7A        : N              
 GND                          : H22       : gnd    :                   :         :           :                
 GXB_NC                       : J1        :        :                   :         : B1L       :                
 GXB_NC                       : J2        :        :                   :         : B1L       :                
@@ -300,43 +300,43 @@ GND                          : J3        : gnd    :                   :         
 VCCE_GXBL                    : J4        : power  :                   : 1.1V    :           :                
 GND                          : J5        : gnd    :                   :         :           :                
 MSEL1                        : J6        :        :                   :         : 9A        :                
-Saida_mult_to_mult_outWaveform[14] : J7        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_controlULA_outWaveform[2] : J7        : output : 2.5 V             :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J8        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J9        :        :                   :         : 8A        :                
+Instruction_to_extensorDeSinal_outWaveform[1] : J9        : output : 2.5 V             :         : 8A        : N              
 VCC                          : J10       : power  :                   : 1.1V    :           :                
-Saida_to_PC_outWaveform[13]  : J11       : output : 2.5 V             :         : 7A        : N              
+out_Saida_OperacaoDaULA[6]   : J11       : output : 2.5 V             :         : 7A        : N              
 VCC                          : J12       : power  :                   : 1.1V    :           :                
-SomadorToPc_outWaveform[2]   : J13       : output : 2.5 V             :         : 7A        : N              
+Flag_jump_OUT                : J13       : output : 2.5 V             :         : 7A        : N              
 VCC                          : J14       : power  :                   : 1.1V    :           :                
 GND                          : J15       : gnd    :                   :         :           :                
 VCC                          : J16       : power  :                   : 1.1V    :           :                
-Instruction_to_Jump_outWaveform[10] : J17       : output : 2.5 V             :         : 7A        : N              
-Saida_adress_to_RAM_outWaveform[13] : J18       : output : 2.5 V             :         : 7A        : N              
-Flag_jump_OUT                : J19       : output : 2.5 V             :         : 7A        : N              
+Instruction_to_register2_outWaveform[1] : J17       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J18       :        :                   :         : 7A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J19       :        :                   :         : 7A        :                
 GND                          : J20       : gnd    :                   :         :           :                
-Saida_to_PC_outWaveform[14]  : J21       : output : 2.5 V             :         : 7A        : N              
-SaidaPc_outWaveform[14]      : J22       : output : 2.5 V             :         : 7A        : N              
+SaidaRegA_outWaveform[9]     : J21       : output : 2.5 V             :         : 7A        : N              
+Saida_to_PC_outWaveform[12]  : J22       : output : 2.5 V             :         : 7A        : N              
 GND                          : K1        : gnd    :                   :         :           :                
 GND                          : K2        : gnd    :                   :         :           :                
 VCCL_GXBL                    : K3        : power  :                   : 1.1V    :           :                
 GND                          : K4        : gnd    :                   :         :           :                
 VCCE_GXBL                    : K5        : power  :                   : 1.1V    :           :                
 CONF_DONE                    : K6        :        :                   :         : 9A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K7        :        :                   :         : 8A        :                
+Instruction_to_register1_outWaveform[2] : K7        : output : 2.5 V             :         : 8A        : N              
 GND                          : K8        : gnd    :                   :         :           :                
-Instruction_to_Jump_outWaveform[7] : K9        : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K9        :        :                   :         : 7A        :                
 GND                          : K10       : gnd    :                   :         :           :                
 VCC                          : K11       : power  :                   : 1.1V    :           :                
 GND                          : K12       : gnd    :                   :         :           :                
 VCC                          : K13       : power  :                   : 1.1V    :           :                
 GND                          : K14       : gnd    :                   :         :           :                
 VCC                          : K15       : power  :                   : 1.1V    :           :                
-SaidaRegA_outWaveform[5]     : K16       : output : 2.5 V             :         : 7A        : N              
-Flag_lemem_OUT               : K17       : output : 2.5 V             :         : 5B        : N              
+Instruction_to_multiplexador_outWaveform[0] : K16       : output : 2.5 V             :         : 7A        : N              
+Data_to_writeRegister_outWaveform[8] : K17       : output : 2.5 V             :         : 5B        : N              
 VCCIO5B                      : K18       : power  :                   : 2.5V    : 5B        :                
-Saida_to_PC_outWaveform[0]   : K19       : output : 2.5 V             :         : 7A        : N              
-SaidaRegB_outWaveform[3]     : K20       : output : 2.5 V             :         : 7A        : N              
-Data_to_writeRegister_outWaveform[9] : K21       : output : 2.5 V             :         : 5B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :         : 7A        :                
+Flag_aluSRC_OUT              : K20       : output : 2.5 V             :         : 7A        : N              
+Saida_adress_to_RAM_outWaveform[13] : K21       : output : 2.5 V             :         : 5B        : N              
 Data_to_writeRegister_outWaveform[7] : K22       : output : 2.5 V             :         : 5B        : N              
 GND                          : L1        :        :                   :         : B1L       :                
 GND                          : L2        :        :                   :         : B1L       :                
@@ -344,8 +344,8 @@ GND                          : L3        : gnd    :                   :         
 VCCE_GXBL                    : L4        : power  :                   : 1.1V    :           :                
 GND                          : L5        : gnd    :                   :         :           :                
 MSEL0                        : L6        :        :                   :         : 9A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 7A        :                
+Instruction_to_extensorDeSinal_outWaveform[2] : L7        : output : 2.5 V             :         : 8A        : N              
+Instruction_to_Control_outWaveform[3] : L8        : output : 2.5 V             :         : 7A        : N              
 DNU                          : L9        :        :                   :         :           :                
 VCC                          : L10       : power  :                   : 1.1V    :           :                
 GND                          : L11       : gnd    :                   :         :           :                
@@ -354,21 +354,21 @@ GND                          : L13       : gnd    :                   :         
 VCC                          : L14       : power  :                   : 1.1V    :           :                
 GND                          : L15       : gnd    :                   :         :           :                
 VCC                          : L16       : power  :                   : 1.1V    :           :                
-SaidaRegB_outWaveform[5]     : L17       : output : 2.5 V             :         : 5B        : N              
-SaidaPc_outWaveform[3]       : L18       : output : 2.5 V             :         : 5B        : N              
-SomadorToPc_outWaveform[14]  : L19       : output : 2.5 V             :         : 5B        : N              
+SaidaRegA_outWaveform[8]     : L17       : output : 2.5 V             :         : 5B        : N              
+Saida_to_PC_outWaveform[11]  : L18       : output : 2.5 V             :         : 5B        : N              
+Saida_to_PC_outWaveform[9]   : L19       : output : 2.5 V             :         : 5B        : N              
 VREFB5BN0                    : L20       : power  :                   :         : 5B        :                
 GND                          : L21       : gnd    :                   :         :           :                
-Data_to_writeRegister_outWaveform[5] : L22       : output : 2.5 V             :         : 5B        : N              
+SaidaRegB_outWaveform[14]    : L22       : output : 2.5 V             :         : 5B        : N              
 GND                          : M1        : gnd    :                   :         :           :                
 GND                          : M2        : gnd    :                   :         :           :                
 VCCH_GXBL                    : M3        : power  :                   : 2.5V    :           :                
 GND                          : M4        : gnd    :                   :         :           :                
 TDO                          : M5        : output :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 3A        :                
+Instruction_to_Jump_outWaveform[5] : M6        : output : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 3B        :                
+SaidaRegB_outWaveform[5]     : M8        : output : 2.5 V             :         : 3B        : N              
+SaidaRegA_outWaveform[1]     : M9        : output : 2.5 V             :         : 3B        : N              
 GND                          : M10       : gnd    :                   :         :           :                
 VCC                          : M11       : power  :                   : 1.1V    :           :                
 GND                          : M12       : gnd    :                   :         :           :                
@@ -377,11 +377,11 @@ GND                          : M14       : gnd    :                   :         
 VCC                          : M15       : power  :                   : 1.1V    :           :                
 Clock_Sistema                : M16       : input  : 2.5 V             :         : 5B        : N              
 VCCPD5B                      : M17       : power  :                   : 2.5V    : 5B        :                
-SaidaRegB_outWaveform[10]    : M18       : output : 2.5 V             :         : 5B        : N              
+SaidaRegA_outWaveform[6]     : M18       : output : 2.5 V             :         : 5B        : N              
 VCCIO5B                      : M19       : power  :                   : 2.5V    : 5B        :                
-SaidaRegB_outWaveform[11]    : M20       : output : 2.5 V             :         : 5B        : N              
-Flag_memparareg_OUT          : M21       : output : 2.5 V             :         : 5B        : N              
-Data_to_writeRegister_outWaveform[14] : M22       : output : 2.5 V             :         : 5B        : N              
+Saida_to_PC_outWaveform[2]   : M20       : output : 2.5 V             :         : 5B        : N              
+Saida_mult_to_mult_outWaveform[4] : M21       : output : 2.5 V             :         : 5B        : N              
+SaidaRegA_outWaveform[0]     : M22       : output : 2.5 V             :         : 5B        : N              
 GXB_NC                       : N1        :        :                   :         : B0L       :                
 GXB_NC                       : N2        :        :                   :         : B0L       :                
 GND                          : N3        : gnd    :                   :         :           :                
@@ -389,65 +389,65 @@ VCCE_GXBL                    : N4        : power  :                   : 1.1V    
 GND                          : N5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 3A        :                
 GND                          : N7        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 3B        :                
-SomadorToPc_outWaveform[7]   : N9        : output : 2.5 V             :         : 3B        : N              
+SomadorToPc_outWaveform[1]   : N8        : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[6]   : N9        : output : 2.5 V             :         : 3B        : N              
 VCC                          : N10       : power  :                   : 1.1V    :           :                
 GND                          : N11       : gnd    :                   :         :           :                
 VCC                          : N12       : power  :                   : 1.1V    :           :                
 GND                          : N13       : gnd    :                   :         :           :                
 VCC                          : N14       : power  :                   : 1.1V    :           :                
 GND                          : N15       : gnd    :                   :         :           :                
-Saida_adress_to_RAM_outWaveform[1] : N16       : output : 2.5 V             :         : 5B        : N              
+Data_to_writeRegister_outWaveform[5] : N16       : output : 2.5 V             :         : 5B        : N              
 GND                          : N17       : gnd    :                   :         :           :                
 VCCPD5B                      : N18       : power  :                   : 2.5V    : 5B        :                
-Data_to_writeRegister_outWaveform[10] : N19       : output : 2.5 V             :         : 5B        : N              
-Saida_adress_to_RAM_outWaveform[2] : N20       : output : 2.5 V             :         : 5B        : N              
-Saida_adress_to_RAM_outWaveform[0] : N21       : output : 2.5 V             :         : 5B        : N              
+Saida_mult_to_mult_outWaveform[2] : N19       : output : 2.5 V             :         : 5B        : N              
+Data_to_writeRegister_outWaveform[9] : N20       : output : 2.5 V             :         : 5B        : N              
+Saida_mult_to_mult_outWaveform[15] : N21       : output : 2.5 V             :         : 5B        : N              
 GND                          : N22       : gnd    :                   :         :           :                
 GND                          : P1        : gnd    :                   :         :           :                
 GND                          : P2        : gnd    :                   :         :           :                
 VCCL_GXBL                    : P3        : power  :                   : 1.1V    :           :                
 GND                          : P4        : gnd    :                   :         :           :                
 TMS                          : P5        : input  :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 3A        :                
+Instruction_to_register1_outWaveform[1] : P6        : output : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P7        :        :                   :         : 3A        :                
-Instruction_to_controlULA_outWaveform[2] : P8        : output : 2.5 V             :         : 3B        : N              
-Saida_mult_to_mult_outWaveform[6] : P9        : output : 2.5 V             :         : 3B        : N              
+SomadorToPc_outWaveform[8]   : P8        : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[4]   : P9        : output : 2.5 V             :         : 3B        : N              
 GND                          : P10       : gnd    :                   :         :           :                
 VCC                          : P11       : power  :                   : 1.1V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P12       :        :                   :         : 3B        :                
+Saida_to_PC_outWaveform[14]  : P12       : output : 2.5 V             :         : 3B        : N              
 VCC                          : P13       : power  :                   : 1.1V    :           :                
-Saida_adress_to_RAM_outWaveform[12] : P14       : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[2]     : P14       : output : 2.5 V             :         : 4A        : N              
 VCC                          : P15       : power  :                   : 1.1V    :           :                
-Data_to_writeRegister_outWaveform[4] : P16       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[11] : P16       : output : 2.5 V             :         : 5A        : N              
 Data_to_writeRegister_outWaveform[3] : P17       : output : 2.5 V             :         : 5A        : N              
-Instruction_to_multiplexador_outWaveform[2] : P18       : output : 2.5 V             :         : 5A        : N              
-Data_to_writeRegister_outWaveform[15] : P19       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[1] : P18       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[4] : P19       : output : 2.5 V             :         : 5A        : N              
 VCCIO5A                      : P20       : power  :                   : 2.5V    : 5A        :                
 VCCPD5A                      : P21       : power  :                   : 2.5V    : 5A        :                
-Data_to_writeRegister_outWaveform[0] : P22       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[15] : P22       : output : 2.5 V             :         : 5A        : N              
 GND                          : R1        :        :                   :         : B0L       :                
 GND                          : R2        :        :                   :         : B0L       :                
 GND                          : R3        : gnd    :                   :         :           :                
 nCSO, DATA4                  : R4        :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 3A        :                
-Instruction_to_Jump_outWaveform[9] : R7        : output : 2.5 V             :         : 3A        : N              
+Instruction_to_Jump_outWaveform[0] : R7        : output : 2.5 V             :         : 3A        : N              
 VCCIO3B                      : R8        : power  :                   : 2.5V    : 3B        :                
-Instruction_to_extensorDeSinal_outWaveform[1] : R9        : output : 2.5 V             :         : 3B        : N              
-Instruction_to_multiplexador_outWaveform[1] : R10       : output : 2.5 V             :         : 3B        : N              
-Saida_to_PC_outWaveform[2]   : R11       : output : 2.5 V             :         : 3B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R12       :        :                   :         : 3B        :                
+SaidaRegB_outWaveform[4]     : R9        : output : 2.5 V             :         : 3B        : N              
+SaidaRegA_outWaveform[12]    : R10       : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[8]   : R11       : output : 2.5 V             :         : 3B        : N              
+Saida_to_PC_outWaveform[15]  : R12       : output : 2.5 V             :         : 3B        : N              
 GND                          : R13       : gnd    :                   :         :           :                
-Saida_adress_to_RAM_outWaveform[6] : R14       : output : 2.5 V             :         : 4A        : N              
-Saida_mult_to_mult_outWaveform[4] : R15       : output : 2.5 V             :         : 5A        : N              
-SaidaRegB_outWaveform[6]     : R16       : output : 2.5 V             :         : 5A        : N              
-Data_to_writeRegister_outWaveform[13] : R17       : output : 2.5 V             :         : 5A        : N              
+SomadorToPc_outWaveform[7]   : R14       : output : 2.5 V             :         : 4A        : N              
+Data_to_writeRegister_outWaveform[12] : R15       : output : 2.5 V             :         : 5A        : N              
+Saida_adress_to_RAM_outWaveform[7] : R16       : output : 2.5 V             :         : 5A        : N              
+SaidaPc_outWaveform[11]      : R17       : output : 2.5 V             :         : 5A        : N              
 VCCIO5A                      : R18       : power  :                   : 2.5V    : 5A        :                
 VCCPGM                       : R19       : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
 VREFB5AN0                    : R20       : power  :                   :         : 5A        :                
-Data_to_writeRegister_outWaveform[12] : R21       : output : 2.5 V             :         : 5A        : N              
-SaidaRegB_outWaveform[0]     : R22       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[10] : R21       : output : 2.5 V             :         : 5A        : N              
+Saida_adress_to_RAM_outWaveform[14] : R22       : output : 2.5 V             :         : 5A        : N              
 GND                          : T1        : gnd    :                   :         :           :                
 GND                          : T2        : gnd    :                   :         :           :                
 VCCH_GXBL                    : T3        : power  :                   : 2.5V    :           :                
@@ -455,43 +455,43 @@ AS_DATA3, DATA3              : T4        :        :                   :         
 VCCA_FPLL                    : T5        : power  :                   : 2.5V    :           :                
 VCCIO3A                      : T6        : power  :                   : 2.5V    : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T8        :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T9        :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 3B        :                
+Instruction_to_Jump_outWaveform[8] : T8        : output : 2.5 V             :         : 3A        : N              
+Saida_adress_to_RAM_outWaveform[8] : T9        : output : 2.5 V             :         : 3B        : N              
+Saida_adress_to_RAM_outWaveform[3] : T10       : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : T11       : power  :                   : 2.5V    : 3B        :                
-Saida_to_PC_outWaveform[12]  : T12       : output : 2.5 V             :         : 4A        : N              
-SaidaPc_outWaveform[5]       : T13       : output : 2.5 V             :         : 4A        : N              
-Saida_mult_to_mult_outWaveform[15] : T14       : output : 2.5 V             :         : 4A        : N              
-Data_to_writeRegister_outWaveform[8] : T15       : output : 2.5 V             :         : 5A        : N              
+SaidaRegB_outWaveform[9]     : T12       : output : 2.5 V             :         : 4A        : N              
+Data_to_writeRegister_outWaveform[0] : T13       : output : 2.5 V             :         : 4A        : N              
+SaidaRegB_outWaveform[6]     : T14       : output : 2.5 V             :         : 4A        : N              
+Data_to_writeRegister_outWaveform[2] : T15       : output : 2.5 V             :         : 5A        : N              
 GND                          : T16       : gnd    :                   :         :           :                
-SaidaRegA_outWaveform[0]     : T17       : output : 2.5 V             :         : 5A        : N              
-Data_to_writeRegister_outWaveform[1] : T18       : output : 2.5 V             :         : 5A        : N              
-Instruction_to_register2_outWaveform[0] : T19       : output : 2.5 V             :         : 5A        : N              
-multiplexador_to_writeRegister_outWaveform[0] : T20       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[6] : T17       : output : 2.5 V             :         : 5A        : N              
+SaidaRegB_outWaveform[7]     : T18       : output : 2.5 V             :         : 5A        : N              
+SaidaRegA_outWaveform[14]    : T19       : output : 2.5 V             :         : 5A        : N              
+SaidaRegB_outWaveform[0]     : T20       : output : 2.5 V             :         : 5A        : N              
 GND                          : T21       : gnd    :                   :         :           :                
-SaidaRegB_outWaveform[15]    : T22       : output : 2.5 V             :         : 5A        : N              
+Data_to_writeRegister_outWaveform[14] : T22       : output : 2.5 V             :         : 5A        : N              
 GXB_NC                       : U1        :        :                   :         : B0L       :                
 GXB_NC                       : U2        :        :                   :         : B0L       :                
 GND                          : U3        : gnd    :                   :         :           :                
 GND                          : U4        :        :                   :         : B0L       :                
 GND                          : U5        : gnd    :                   :         :           :                
-Instruction_to_Jump_outWaveform[6] : U6        : output : 2.5 V             :         : 3A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3A        :                
+Instruction_to_multiplexador_outWaveform[2] : U6        : output : 2.5 V             :         : 3A        : N              
+SaidaPc_outWaveform[14]      : U7        : output : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : U8        :        :                   :         : 3A        :                
 GND                          : U9        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U10       :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U11       :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U12       :        :                   :         : 3B        :                
-SomadorToPc_outWaveform[8]   : U13       : output : 2.5 V             :         : 4A        : N              
+Saida_mult_to_mult_outWaveform[7] : U10       : output : 2.5 V             :         : 3B        : N              
+SaidaPc_outWaveform[8]       : U11       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[11] : U12       : output : 2.5 V             :         : 3B        : N              
+Saida_adress_to_RAM_outWaveform[1] : U13       : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : U14       : power  :                   : 2.5V    : 4A        :                
-Saida_mult_to_mult_outWaveform[11] : U15       : output : 2.5 V             :         : 4A        : N              
-SaidaRegB_outWaveform[12]    : U16       : output : 2.5 V             :         : 4A        : N              
-Data_to_writeRegister_outWaveform[6] : U17       : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[2] : U15       : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[9]       : U16       : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[12] : U17       : output : 2.5 V             :         : 4A        : N              
 VCCA_FPLL                    : U18       : power  :                   : 2.5V    :           :                
 VCCIO4A                      : U19       : power  :                   : 2.5V    : 4A        :                
-SaidaRegB_outWaveform[8]     : U20       : output : 2.5 V             :         : 4A        : N              
-SaidaRegB_outWaveform[9]     : U21       : output : 2.5 V             :         : 4A        : N              
-SaidaRegB_outWaveform[4]     : U22       : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[5]       : U20       : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[5] : U21       : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[3]       : U22       : output : 2.5 V             :         : 4A        : N              
 GND                          : V1        : gnd    :                   :         :           :                
 GND                          : V2        : gnd    :                   :         :           :                
 DCLK                         : V3        :        :                   :         : 3A        :                
@@ -500,19 +500,19 @@ TCK                          : V5        : input  :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 3A        :                
 GND                          : V7        : gnd    :                   :         :           :                
 VCCPGM                       : V8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : V9        :        :                   :         : 3B        :                
+Saida_mult_to_mult_outWaveform[9] : V9        : output : 2.5 V             :         : 3B        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V10       :        :                   :         : 3B        :                
 DNU                          : V11       :        :                   :         :           :                
 GND                          : V12       : gnd    :                   :         :           :                
-Saida_to_PC_outWaveform[11]  : V13       : output : 2.5 V             :         : 4A        : N              
-Flag_aluSRC_OUT              : V14       : output : 2.5 V             :         : 4A        : N              
-SaidaRegA_outWaveform[8]     : V15       : output : 2.5 V             :         : 4A        : N              
-Saida_to_PC_outWaveform[7]   : V16       : output : 2.5 V             :         : 4A        : N              
+SaidaRegB_outWaveform[1]     : V13       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[5]   : V14       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[12]  : V15       : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[5]     : V16       : output : 2.5 V             :         : 4A        : N              
 GND                          : V17       : gnd    :                   :         :           :                
-Data_to_writeRegister_outWaveform[2] : V18       : output : 2.5 V             :         : 4A        : N              
-Saida_adress_to_RAM_outWaveform[11] : V19       : output : 2.5 V             :         : 4A        : N              
-SaidaPc_outWaveform[1]       : V20       : output : 2.5 V             :         : 4A        : N              
-multiplexador_to_writeRegister_outWaveform[2] : V21       : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[0]       : V18       : output : 2.5 V             :         : 4A        : N              
+SaidaPc_outWaveform[1]       : V19       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[0]   : V20       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[2]   : V21       : output : 2.5 V             :         : 4A        : N              
 GND                          : V22       : gnd    :                   :         :           :                
 GND                          : W1        :        :                   :         : B0L       :                
 GND                          : W2        :        :                   :         : B0L       :                
@@ -521,7 +521,7 @@ GND                          : W4        : gnd    :                   :         
 TDI                          : W5        : input  :                   :         : 3A        :                
 VCCPD3A                      : W6        : power  :                   : 2.5V    : 3A        :                
 VCC_AUX                      : W7        : power  :                   : 2.5V    :           :                
-funcionou                    : W8        : output : 2.5 V             :         : 3A        : N              
+Saida_mult_to_mult_outWaveform[12] : W8        : output : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W9        :        :                   :         : 3A        :                
 VCCIO3B                      : W10       : power  :                   : 2.5V    : 3B        :                
 VCCPD3B4A                    : W11       : power  :                   : 2.5V    : 3B, 4A    :                
@@ -529,13 +529,13 @@ VCCPD3B4A                    : W12       : power  :                   : 2.5V    
 VCC_AUX                      : W13       : power  :                   : 2.5V    :           :                
 VCCPD3B4A                    : W14       : power  :                   : 2.5V    : 3B, 4A    :                
 VCCIO4A                      : W15       : power  :                   : 2.5V    : 4A        :                
-Flag_regdest_OUT             : W16       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[11]  : W16       : output : 2.5 V             :         : 4A        : N              
 VCCPD3B4A                    : W17       : power  :                   : 2.5V    : 3B, 4A    :                
 VCC_AUX                      : W18       : power  :                   : 2.5V    :           :                
-SaidaRegA_outWaveform[10]    : W19       : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[9] : W19       : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : W20       : power  :                   : 2.5V    : 4A        :                
-SomadorToPc_outWaveform[0]   : W21       : output : 2.5 V             :         : 4A        : N              
-Instruction_to_controlULA_outWaveform[0] : W22       : output : 2.5 V             :         : 4A        : N              
+Data_to_writeRegister_outWaveform[13] : W21       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[9]   : W22       : output : 2.5 V             :         : 4A        : N              
 GND                          : Y1        : gnd    :                   :         :           :                
 GND                          : Y2        : gnd    :                   :         :           :                
 GXB_NC                       : Y3        :        :                   :         : B0L       :                
@@ -544,17 +544,17 @@ GND                          : Y5        : gnd    :                   :         
 DNU                          : Y6        :        :                   :         :           :                
 VREFB3AN0                    : Y7        : power  :                   :         : 3A        :                
 VCCIO3A                      : Y8        : power  :                   : 2.5V    : 3A        :                
-Saida_mult_to_mult_outWaveform[5] : Y9        : output : 2.5 V             :         : 3B        : N              
-Instruction_to_Control_outWaveform[1] : Y10       : output : 2.5 V             :         : 3B        : N              
-Instruction_to_Jump_outWaveform[4] : Y11       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[10] : Y9        : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[14] : Y10       : output : 2.5 V             :         : 3B        : N              
+Saida_mult_to_mult_outWaveform[13] : Y11       : output : 2.5 V             :         : 3B        : N              
 VREFB3BN0                    : Y12       : power  :                   :         : 3B        :                
 VCCIO3B                      : Y13       : power  :                   : 2.5V    : 3B        :                
-Instruction_to_Control_outWaveform[0] : Y14       : output : 2.5 V             :         : 4A        : N              
-SaidaRegA_outWaveform[14]    : Y15       : output : 2.5 V             :         : 4A        : N              
-Saida_mult_to_mult_outWaveform[8] : Y16       : output : 2.5 V             :         : 4A        : N              
-SaidaRegA_outWaveform[2]     : Y17       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[3]   : Y14       : output : 2.5 V             :         : 4A        : N              
+SaidaRegA_outWaveform[15]    : Y15       : output : 2.5 V             :         : 4A        : N              
+Saida_to_PC_outWaveform[13]  : Y16       : output : 2.5 V             :         : 4A        : N              
+Saida_to_PC_outWaveform[7]   : Y17       : output : 2.5 V             :         : 4A        : N              
 GND                          : Y18       : gnd    :                   :         :           :                
-Instruction_to_multiplexador_outWaveform[0] : Y19       : output : 2.5 V             :         : 4A        : N              
-multiplexador_to_writeRegister_outWaveform[1] : Y20       : output : 2.5 V             :         : 4A        : N              
-SaidaRegB_outWaveform[7]     : Y21       : output : 2.5 V             :         : 4A        : N              
-Saida_adress_to_RAM_outWaveform[10] : Y22       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[10]  : Y19       : output : 2.5 V             :         : 4A        : N              
+Saida_adress_to_RAM_outWaveform[0] : Y20       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[6]   : Y21       : output : 2.5 V             :         : 4A        : N              
+SomadorToPc_outWaveform[14]  : Y22       : output : 2.5 V             :         : 4A        : N              

@@ -12,9 +12,9 @@ PORT
 		escrevereg : out std_logic;
 		lemem      : out std_logic;
 		escrevemem : out std_logic;
-		branch     : out std_logic;
+		jump     : out std_logic;
 		aluSRC     : out std_logic;
-		jump       : out std_logic
+		branch       : out std_logic
 	);
 	
 END UnidadedeControle;
@@ -26,18 +26,18 @@ operacoes: PROCESS (entrada,Clock)
 				IF entrada = "0000" then --instrução tipo r
 					regdest <= '1';
 					origalu <= "0000";
-					memparareg <= '0';
+					memparareg <= '1';
 					escrevereg <= '1';
 					lemem <= '0';
 					escrevemem <= '0';
 					branch <= '0';
-					aluSRC <= '1';
+					aluSRC <= '0';
 					jump <= '0';
 					
 				ELSIF entrada = "0001" then --instrução load
 					regdest <= '0';
 					origalu <= "0001";
-					memparareg <= '1';
+					memparareg <= '0';
 					escrevereg <= '1';
 					lemem <= '1';
 					escrevemem <= '0';
@@ -53,7 +53,7 @@ operacoes: PROCESS (entrada,Clock)
 					lemem <= '0';
 					escrevemem <= '1';
 					branch <= '0';
-					aluSRC <= '0';
+					aluSRC <= '1';
 					jump <= '0';
 					
 				ELSIF entrada = "0101" then --instrução jump
@@ -66,6 +66,29 @@ operacoes: PROCESS (entrada,Clock)
 					branch <= '1';
 					aluSRC <= '0';
 					jump <= '1';
+					
+				ELSIF entrada = "0011" then --instrução BEQ
+					regdest <= '0';
+					origalu <= "0011";
+					memparareg <= '0';
+					escrevereg <= '0';
+					lemem <= '0';
+					escrevemem <= '0';
+					branch <= '1';
+					aluSRC <= '0';
+					jump <= '0';
+					
+				
+				ELSIF entrada = "0100" then --instrução BNQ
+					regdest <= '0';
+					origalu <= "0100";
+					memparareg <= '0';
+					escrevereg <= '0';
+					lemem <= '0';
+					escrevemem <= '0';
+					branch <= '1';
+					aluSRC <= '0';
+					jump <= '0';
 					
 --				ELSE
 --					regdest <= 'Z';

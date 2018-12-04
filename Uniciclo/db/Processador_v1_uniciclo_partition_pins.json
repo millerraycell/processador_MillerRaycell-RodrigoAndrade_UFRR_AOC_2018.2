@@ -264,10 +264,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "multiplexador_to_writeRegister_outWaveform[1]",
-					"strict" : false
-				},
-				{
 					"name" : "multiplexador_to_writeRegister_outWaveform[2]",
 					"strict" : false
 				},
@@ -276,23 +272,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Instruction_to_multiplexador_outWaveform[1]",
-					"strict" : false
-				},
-				{
 					"name" : "Instruction_to_multiplexador_outWaveform[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Instruction_to_Control_outWaveform[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Instruction_to_Control_outWaveform[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Instruction_to_register1_outWaveform[0]",
 					"strict" : false
 				},
 				{
@@ -304,31 +284,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "Instruction_to_register2_outWaveform[1]",
+					"strict" : false
+				},
+				{
 					"name" : "Instruction_to_controlULA_outWaveform[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Instruction_to_extensorDeSinal_outWaveform[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Instruction_to_extensorDeSinal_outWaveform[2]",
-					"strict" : false
-				},
-				{
 					"name" : "out_Saida_OperacaoDaULA[0]",
-					"strict" : false
-				},
-				{
-					"name" : "out_Saida_OperacaoDaULA[3]",
-					"strict" : false
-				},
-				{
-					"name" : "out_Saida_OperacaoDaULA[4]",
-					"strict" : false
-				},
-				{
-					"name" : "out_Saida_OperacaoDaULA[5]",
 					"strict" : false
 				},
 				{
@@ -588,59 +552,131 @@
 					"strict" : false
 				},
 				{
-					"name" : "saida_cont_sincz1",
+					"name" : "Saida_ula[0]",
 					"strict" : false
 				},
 				{
-					"name" : "saida_cont_sincz2",
+					"name" : "Saida_ula[1]",
 					"strict" : false
 				},
 				{
-					"name" : "saida_cont_sincz3",
+					"name" : "Saida_ula[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_regdest_OUT",
+					"name" : "Saida_ula[3]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_origialu_OUT[0]",
+					"name" : "Saida_ula[4]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_origialu_OUT[1]",
+					"name" : "Saida_ula[5]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_origialu_OUT[2]",
+					"name" : "Saida_ula[6]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_memparareg_OUT",
+					"name" : "Saida_ula[7]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_escrevereg_OUT",
+					"name" : "Saida_ula[8]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_lemem_OUT",
+					"name" : "Saida_ula[9]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_escrevemem_OUT",
+					"name" : "Saida_ula[10]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_branch_OUT",
+					"name" : "Saida_ula[11]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_aluSRC_OUT",
+					"name" : "Saida_ula[12]",
 					"strict" : false
 				},
 				{
-					"name" : "Flag_jump_OUT",
+					"name" : "Saida_ula[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_ula[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Saida_ula[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dado_register_destino[15]",
 					"strict" : false
 				},
 				{

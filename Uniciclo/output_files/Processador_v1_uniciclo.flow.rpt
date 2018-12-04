@@ -1,5 +1,5 @@
 Flow report for Processador_v1_uniciclo
-Mon Dec 03 08:44:06 2018
+Tue Dec 04 02:45:04 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Dec 03 08:44:06 2018       ;
+; Flow Status                     ; Successful - Tue Dec 04 02:45:04 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; Processador_v1_uniciclo                     ;
 ; Top-level Entity Name           ; DataPath                                    ;
@@ -48,8 +48,8 @@ refer to the applicable agreement for further details.
 ; Device                          ; 5CGXFC7C7F23C8                              ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 45                                          ;
-; Total pins                      ; 189                                         ;
+; Total registers                 ; 16                                          ;
+; Total pins                      ; 217                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+-------------------------+
 ; Option            ; Setting                 ;
 +-------------------+-------------------------+
-; Start date & time ; 12/03/2018 08:43:43     ;
+; Start date & time ; 12/04/2018 02:43:35     ;
 ; Main task         ; Compilation             ;
 ; Revision Name     ; Processador_v1_uniciclo ;
 +-------------------+-------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+-------------------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value           ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+-------------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 176646866072354.154384102309376        ; --                      ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 132098961927148.154390581509488        ; --                      ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --                      ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>                  ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --                      ; --          ; eda_simulation ;
@@ -99,8 +99,10 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4925 MB             ; 00:00:30                           ;
-; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:30                           ;
+; Analysis & Synthesis ; 00:00:38     ; 1.0                     ; 5229 MB             ; 00:00:53                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4736 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4737 MB             ; 00:00:01                           ;
+; Total                ; 00:00:40     ; --                      ; --                  ; 00:00:55                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -110,13 +112,17 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-8JNJVRF  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-8JNJVRF  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-8JNJVRF  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off MAGIC -c Processador_v1_uniciclo
+quartus_map --read_settings_files=on --write_settings_files=off Processador_v1_uniciclo -c Processador_v1_uniciclo
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off Processador_v1_uniciclo -c Processador_v1_uniciclo --vector_source=C:/Processador_v1_uniciclo/Waveform.vwf --testbench_file=C:/Processador_v1_uniciclo/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Processador_v1_uniciclo/simulation/qsim/ Processador_v1_uniciclo -c Processador_v1_uniciclo
 
 
 

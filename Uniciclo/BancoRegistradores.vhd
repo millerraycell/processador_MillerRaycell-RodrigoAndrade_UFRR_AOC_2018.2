@@ -12,7 +12,8 @@ Entity BancoRegistradores is port
 	  Data:     in  std_logic_vector (15 downto 0); -- Dado a ser escrito
 	  RegDst:   in  std_logic_vector (2  downto 0); -- Registrador de destino
 	  LeReg1:   in  std_logic_vector (2  downto 0); -- Endereço do resgistrador 1
-	  LeReg2:   in  std_logic_vector (2  downto 0)  -- Endereço do resgistrador 2
+	  LeReg2:   in  std_logic_vector (2  downto 0);  -- Endereço do resgistrador 2
+	  data_saida: out std_logic_vector (15 downto 0)
 	);
 end BancoRegistradores;
 
@@ -20,27 +21,20 @@ Architecture behavior of BancoRegistradores is
 	
 	type RegBank is array(0 to 7) of std_logic_vector (15 downto 0);
 	shared variable Reg : RegBank;
---									:= ("0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000",
---									 "0000000000000000");
 	
 begin
 	process (Clock, LeReg1, LeReg2, EscReg, Data, RegDst)
 		begin
-		Reg(3) := "0000000000000101";
-		Reg(1) := "0000000000000100";	
-	     if(Clock = '1') then
+		Reg(2) := "1010101010111001"; -- 11992
+		Reg(3) := "1111111111111111"; -- 13824
+	     if(Clock = '1') then 
 			if EscReg = '1' then
 				Reg(to_integer(unsigned(RegDst))) := Data;
 			end if;
 		  end if;
 		RegA <= Reg(to_integer(unsigned(LeReg1)));
 		RegB <= Reg(to_integer(unsigned(LeReg2)));
+		data_saida <= Data;
 	end process;
 	
 end behavior;

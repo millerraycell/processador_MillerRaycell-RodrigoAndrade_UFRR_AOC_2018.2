@@ -63,7 +63,7 @@ Architecture behavior of ULA is
 	
 	begin
 						 
-	process(Controle_ULA, EntradaA, EntradaB)
+	process(Controle_ULA,EntradaA, EntradaB)
 		begin
 			 case Controle_ULA is
 				  when "0000000" => Splitter <= EntradaA  +   EntradaB;
@@ -73,8 +73,14 @@ Architecture behavior of ULA is
 				  when "0000100" => Splitter <= EntradaA  or EntradaB ;
 				  when others    => Splitter <= "0000000000000000";
 			 end case;
+			 
+			 If (Controle_ULA(6 downto 3) = "0001" or Controle_ULA(6 downto 3) = "0010") then 
+			 
+				Splitter <= EntradaA + EntradaB;
+				
+			End If;
+				
 		end process;
-		
 		
 		ZeroULA <= 
 			'1' when (Controle_ULA(6 downto 3) = "0011") and ((EntradaA - EntradaB) = "0000000000000000") else

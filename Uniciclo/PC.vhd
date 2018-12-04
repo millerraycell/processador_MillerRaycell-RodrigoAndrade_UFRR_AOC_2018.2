@@ -8,12 +8,7 @@ PORT
 (
 		clk :  IN  STD_LOGIC;
 		pin :  IN  STD_LOGIC_VECTOR (15 DOWNTO 0);
-		pout : OUT STD_LOGIC_VECTOR (15 DOWNTO 0);
-		saidacont1 : OUT STD_LOGIC;
-		saidacont2 : OUT STD_LOGIC;
-		saidacont3 : OUT STD_LOGIC;
-		tafunfando : OUT STD_LOGIC
-		
+		pout : OUT STD_LOGIC_VECTOR (15 DOWNTO 0)
 	);
 END PC;
 
@@ -34,11 +29,6 @@ ARCHITECTURE behavior OF PC IS
 
 BEGIN
 	G0: contsinc PORT MAP (aux1,aux2,clk,a1,a2,a3);
-	
-	saidacont1 <= a1;
-	saidacont2 <= a2;
-	saidacont3 <= a3;
-	tafunfando <= ativo;
 	aux <= a1 & a2 & a3;
 	
 	PROCESS(clk, ativo)
